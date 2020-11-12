@@ -1,0 +1,11 @@
+{
+  "name": "html-webpack-plugin-1556",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.0.0-alpha.14",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
