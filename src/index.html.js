@@ -1,4 +1,4 @@
-const template = () => {
+const template = (hash) => {
   return `<html>
     <head>
       <meta charSet="utf-8" />
@@ -7,10 +7,11 @@ const template = () => {
       <meta name="referrer" content="origin-when-cross-origin" />
     </head>
     <body>
+    <div>compilation: ${hash}</div>
     </body>
   </html>`;
 };
 
-export default function () {
-  return template();
+export default function ({ compilation }) {
+  return template(compilation.hash);
 }

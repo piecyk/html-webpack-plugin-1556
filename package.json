@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  },
   "devDependencies": {
     "html-webpack-plugin": "^5.0.0-alpha.14",
     "webpack": "^5.4.0",
